@@ -1,0 +1,2 @@
+READGAME Game/game.star
+EXIT
