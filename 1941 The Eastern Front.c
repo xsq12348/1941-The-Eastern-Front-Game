@@ -1,20 +1,20 @@
 //All notes are in English and Chinese, and the rest of the languages are garbled
 /*
-* ¸Ä±à×Ô×÷Õß×ÀÓÎ£¬ÂÔÓĞ²»Í¬
+* æ”¹ç¼–è‡ªä½œè€…æ¡Œæ¸¸ï¼Œç•¥æœ‰ä¸åŒ
 * Adapted from the author's board game, slightly different
-×÷Õß:xsq1234
-ÓÊÏä:1993346266@qq.com(³£ÓÃ),c6668883535357a@163.com(²»³£ÓÃ)
-¹¤³Ì´´½¨ÈÕÆÚ:2025.7.16~2025.7.29,2025.8.2~8.3
-Ãû³Æ:1941 ¶«Ïß(1941 The Eastern Front)
-Î´¾­ÊÚÈ¨½ûÖ¹×ªÔØ!xsq1234±£Áô²¿·ÖÈ¨Àû¡£
-Äú¿ÉÒÔĞŞ¸ÄÔ´´úÂë£¬ÍØÕ¹µÈµÈ£¬µ«±ØĞë±£ÁôÓÎÏ·Ô­×÷ÕßÊğÃû¡£ÌÈÈôĞŞ¸Ä£¬ÄúµÄÉÌÒµ»¯È¨Àû½«±»°ş¶á.
-ÈçÈôĞèÒª¶ş´Î·Ö·¢£¬ÇëÔÚ×ÉÑ¯xsq1234ºóÔÚÏÂ·½Ğ´ÏÂÄúµÄÓÊÏä
-ÓÊÏä:
-ÈçÈôĞèÒª×÷ÎªÉÌÆ·»ò·ÅÔÚÈí¼ş·Ö·¢Æ½Ì¨·¢·Å£¬±ØĞë×ÉÑ¯xsq1234ºóÔÚÏÂ·½Ğ´ÏÂÄúµÄÓÊÏä£¬²¢ÇÒ¸æÖª¿ÉÄÜµÄÓ¯Àû
-ÓÊÏä:
-Ô´´úÂëÖ»Òª·Ö·¢³öÈ¥£¬ĞòÁĞºÅ¾Í²»µÃÏàÍ¬
-ĞòÁĞºÅ 00000-00000-00001
-°æ±¾ĞÅÏ¢:²âÊÔ°æ
+ä½œè€…:xsq1234
+é‚®ç®±:1993346266@qq.com(å¸¸ç”¨),c6668883535357a@163.com(ä¸å¸¸ç”¨)
+å·¥ç¨‹åˆ›å»ºæ—¥æœŸ:2025.7.16~2025.7.29,2025.8.2~8.3
+åç§°:1941 ä¸œçº¿(1941 The Eastern Front)
+æœªç»æˆæƒç¦æ­¢è½¬è½½!xsq1234ä¿ç•™éƒ¨åˆ†æƒåˆ©ã€‚
+æ‚¨å¯ä»¥ä¿®æ”¹æºä»£ç ï¼Œæ‹“å±•ç­‰ç­‰ï¼Œä½†å¿…é¡»ä¿ç•™æ¸¸æˆåŸä½œè€…ç½²åã€‚å€˜è‹¥ä¿®æ”¹ï¼Œæ‚¨çš„å•†ä¸šåŒ–æƒåˆ©å°†è¢«å‰¥å¤º.
+å¦‚è‹¥éœ€è¦äºŒæ¬¡åˆ†å‘ï¼Œè¯·åœ¨å’¨è¯¢xsq1234ååœ¨ä¸‹æ–¹å†™ä¸‹æ‚¨çš„é‚®ç®±
+é‚®ç®±:
+å¦‚è‹¥éœ€è¦ä½œä¸ºå•†å“æˆ–æ”¾åœ¨è½¯ä»¶åˆ†å‘å¹³å°å‘æ”¾ï¼Œå¿…é¡»å’¨è¯¢xsq1234ååœ¨ä¸‹æ–¹å†™ä¸‹æ‚¨çš„é‚®ç®±ï¼Œå¹¶ä¸”å‘ŠçŸ¥å¯èƒ½çš„ç›ˆåˆ©
+é‚®ç®±:
+æºä»£ç åªè¦åˆ†å‘å‡ºå»ï¼Œåºåˆ—å·å°±ä¸å¾—ç›¸åŒ
+åºåˆ—å· 00000-00000-00001
+ç‰ˆæœ¬ä¿¡æ¯:æµ‹è¯•ç‰ˆ
 Author: xsq1234
 Email: 1993346266@qq.com (commonly used), c6668883535357a@163.com (not commonly used)
 Project creation date: 2025.7.16~2025.7.29,2025.8.2~8.3
@@ -28,6 +28,9 @@ Mailbox:
 As long as the source code is distributed, the serial number must not be the same
 Serial number 00000-00000-00001
 Version information: beta version
+
+å¦‚æœæ‚¨æ˜¯ä»GitHubä»“åº“é‡Œå¾—åˆ°å®ƒçš„ï¼Œé‚£ä¹ˆä»¥ä¸Šé™åˆ¶ä½œåºŸï¼Œéµå¾ªä»“åº“ä¸­çš„è®¸å¯è¯æ¡æ¬¾ã€‚
+If you obtained it from the GitHub repository, then the above limitations are void, and you should follow the license terms in the repository.
 
 * Mapping V
 * Hexagon correlation V
@@ -65,25 +68,25 @@ typedef struct
 }NEWPOINT;
 typedef struct
 {
-	int unit;		//µ¥Î»ÖÖÀà
-	int people;		//ÈËÔ±
-	int Attacker;	//¹¥»÷Á¦
-	int Defender;	//·ÀÓùÁ¦
-	int Mobility;	//ÒÆ¶¯Á¦
-	int sid;		//ÕóÓª
-	int supply;		//²¹¸ø×´Ì¬
-	int battleemblem;//Õ½¶·±êÖ¾
+	int unit;		//å•ä½ç§ç±»
+	int people;		//äººå‘˜
+	int Attacker;	//æ”»å‡»åŠ›
+	int Defender;	//é˜²å¾¡åŠ›
+	int Mobility;	//ç§»åŠ¨åŠ›
+	int sid;		//é˜µè¥
+	int supply;		//è¡¥ç»™çŠ¶æ€
+	int battleemblem;//æˆ˜æ–—æ ‡å¿—
 }UNIT;
 typedef struct MAP
 {
-	int citysid;			//³ÇÊĞ¹éÊô
-	char ragionname[255];	//³ÇÊĞÃû³Æ
-	int terrain;			//µØĞÎ
-	int AXISReplenish;		//²¹¸ø
-	int USSRReplenish;		//²¹¸ø
-	struct MAP* hexagon[6];	//ÁÚ¾Ó¸ñ×Ó
+	int citysid;			//åŸå¸‚å½’å±
+	char ragionname[255];	//åŸå¸‚åç§°
+	int terrain;			//åœ°å½¢
+	int AXISReplenish;		//è¡¥ç»™
+	int USSRReplenish;		//è¡¥ç»™
+	struct MAP* hexagon[6];	//é‚»å±…æ ¼å­
 	UNIT unit[5];			//unit
-	int Boundary[6];		//±ß½çÊôĞÔ
+	int Boundary[6];		//è¾¹ç•Œå±æ€§
 	int traintracks[6];		//train
 }MAP;
 
@@ -132,25 +135,25 @@ const char* hexagonopencl =
 "#define MAPHEIGHT		23"
 "typedef struct"
 "{"
-"	int unit;"		//µ¥Î»ÖÖÀà
-"	int people;"	//ÈËÔ±
-"	int Attacker;"	//¹¥»÷Á¦
-"	int Defender;"	//·ÀÓùÁ¦
-"	int Mobility;"	//ÒÆ¶¯Á¦
-"	int sid;"		//ÕóÓª
-"	int coor;"		//×ø±ê
+"	int unit;"		//å•ä½ç§ç±»
+"	int people;"	//äººå‘˜
+"	int Attacker;"	//æ”»å‡»åŠ›
+"	int Defender;"	//é˜²å¾¡åŠ›
+"	int Mobility;"	//ç§»åŠ¨åŠ›
+"	int sid;"		//é˜µè¥
+"	int coor;"		//åæ ‡
 "}UNIT;"
 "typedef struct"
 "{"
-"	int citysid;"			//³ÇÊĞ¹éÊô
-"	char ragionname[255];"	//³ÇÊĞÃû³Æ
-"	int terrain;"			//µØĞÎ
-"	int terrainnumber;"		//ÒÆ¶¯´ú¼Û
-"	int AXISReplenish;"		//²¹¸ø
-"	int USSRReplenish;"		//²¹¸ø
-"	int hexagon[6];"		//ÁÚ¾Ó¸ñ×Ó
+"	int citysid;"			//åŸå¸‚å½’å±
+"	char ragionname[255];"	//åŸå¸‚åç§°
+"	int terrain;"			//åœ°å½¢
+"	int terrainnumber;"		//ç§»åŠ¨ä»£ä»·
+"	int AXISReplenish;"		//è¡¥ç»™
+"	int USSRReplenish;"		//è¡¥ç»™
+"	int hexagon[6];"		//é‚»å±…æ ¼å­
 "	int unit;"				/*Unittype and Unitnumber if unit > 0 then ussrunitnumber elseif unit < 0 then axisunitnumber*/
-"	int Boundary[6];"		//±ß½çÊôĞÔ
+"	int Boundary[6];"		//è¾¹ç•Œå±æ€§
 "	int traintracks[6];"	//train
 "}MAP;"
 "__kernel void FindUnit(__global UNIT* unit, __global int* coor, __global int* returncoord)"
@@ -215,7 +218,7 @@ void NewLine(HWND hwnd, HDC hdc, int x1, int y1, int x2, int y2, int width, COLO
 }
 void NewPrintf(HWND hwnd, HDC hdc, int x, int y, LPCSTR arrtext, COLORREF color)
 {
-	SetBkMode(hdc, TRANSPARENT);//ÉèÖÃ×ÖÌå±³¾°Í¸Ã÷
+	SetBkMode(hdc, TRANSPARENT);//è®¾ç½®å­—ä½“èƒŒæ™¯é€æ˜
 	int size = strlen(arrtext);
 	SetTextColor(hdc, color);
 	TextOut(hdc, x, y, CharToLPCWSTR(arrtext), size);
@@ -224,7 +227,7 @@ void NewPrintf(HWND hwnd, HDC hdc, int x, int y, LPCSTR arrtext, COLORREF color)
 
 //----------------------------------------------------------------------------------------------------------------Hexagon----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-//»­Áù±ßĞÎ
+//ç”»å…­è¾¹å½¢
 void HexagonA(HDC hdc, int R, int X, int Y, COLORREF color)
 {
 	int r = R;
@@ -279,7 +282,7 @@ void HexagonB(HDC hdc, int R, int r, int X, int Y, COLORREF color)
 	DeleteObject(hnPen);
 }
 
-//Áù±ßĞÎ
+//å…­è¾¹å½¢
 void Hexagon(HDC hdc, int R, int x, int y, int width, COLORREF color)
 {
 	NewLine(0, hdc, x + R / 2, y - 1.73 * R / 2, x + R, y, width, color);
@@ -290,7 +293,7 @@ void Hexagon(HDC hdc, int R, int x, int y, int width, COLORREF color)
 	NewLine(0, hdc, x - R / 2, y + 1.73 * R / 2, x + R / 2, y + 1.73 * R / 2, width, color);
 }
 
-//Êµ¼Ê×ø±ê×ª»»³ÉÁù±ßĞÎ×ø±ê
+//å®é™…åæ ‡è½¬æ¢æˆå…­è¾¹å½¢åæ ‡
 NEWPOINT HexagonTransitionPoint(int transitionpointx, int transitionpointy, int R)
 {
 	int xi = transitionpointy / (1.73 * R), xo = transitionpointx / (1.5 * R);
@@ -308,7 +311,7 @@ NEWPOINT HexagonTransitionPoint(int transitionpointx, int transitionpointy, int 
 	return alpha;
 }
 
-//Áù±ßĞÎ×ø±ê×ª»»³ÉÊµ¼Ê×ø±ê
+//å…­è¾¹å½¢åæ ‡è½¬æ¢æˆå®é™…åæ ‡
 NEWPOINT HexagonTurningPoint(int pointx, int pointy, int R)
 {
 	NEWPOINT returnpoint = { 0 };
@@ -317,7 +320,7 @@ NEWPOINT HexagonTurningPoint(int pointx, int pointy, int R)
 	return returnpoint;
 }
 
-//´´½¨Á¬½Ó¹ØÏµ
+//åˆ›å»ºè¿æ¥å…³ç³»
 void HexagonConversion()
 {
 	for (int k = 0; k < MAPHEIGHT * MAPWIDTH; k++)
@@ -345,7 +348,7 @@ void HexagonConversion()
 	}
 }
 
-//ĞŞÊÎµØĞÎ
+//ä¿®é¥°åœ°å½¢
 void TerrainModification(HDC hdc, int boundary, int rad, int R, int X, int Y)
 {
 	int r = R,
@@ -385,7 +388,7 @@ void TerrainModification(HDC hdc, int boundary, int rad, int R, int X, int Y)
 	if (map[X * MAPHEIGHT + Y].traintracks[rad] == TRUE) Line(0, hdc, x, y, hexagonA[rad].x, hexagonA[rad].y, 0x003a1c);
 }
 
-//»æÖÆµØÍ¼
+//ç»˜åˆ¶åœ°å›¾
 void HexagonMapDrawing(HDC hdc, int R)
 {
 	BoxB(0, hdc, 0, 0, MAPIMGWIDTH, MAPIMGHEIGHT, 0xfcdbcb);
@@ -430,7 +433,7 @@ void HexagonMapDrawing(HDC hdc, int R)
 
 //----------------------------------------------------------------------------------------------------------------Unit----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-//µ¥Î»Í¼±ê
+//å•ä½å›¾æ ‡
 void UnitIcon(HDC hdc, UNIT unit, RECT rect, int R)
 {
 	int alpha = R / 3, beta = alpha >> 1;
@@ -488,7 +491,7 @@ void UnitIcon(HDC hdc, UNIT unit, RECT rect, int R)
 	}
 }
 
-//»æÖÆµ¥Î»
+//ç»˜åˆ¶å•ä½
 void UnitDrawing(HDC hdc, UNIT unit, int sid, int X, int Y, int mousehexagonx, int mousehexagony, int Mapx, int Mapy)
 {
 	if (sid <= 0)return;
@@ -516,12 +519,12 @@ void UnitDrawing(HDC hdc, UNIT unit, int sid, int X, int Y, int mousehexagonx, i
 	UnitIcon(hdc, unit, rect, HEXAGONR);
 	if (unit.supply <= 0)NewLine(0, hdc, rect.left + 3, rect.top + 3, rect.left + 3, rect.top + 3, 7, 0x00eeee);
 	if (unit.battleemblem)NewLine(0, hdc, rect.left + 3, rect.top + 10, rect.left + 3, rect.top + 10, 7, 0x009900);
-	Dight(0, hdc, rect.left + beta, rect.top + beta + alpha * 1.5, unit.Attacker, 0xeeee00);		//¹¥»÷Á¦
-	Dight(0, hdc, rect.left + beta + 8, rect.top + beta + alpha * 1.5, unit.Defender, 0x30ee6a);	//·ÀÓùÁ¦
-	Dight(0, hdc, rect.left + beta + 16, rect.top + beta + alpha * 1.5, unit.Mobility, 0xffffff);	//ÒÆ¶¯Á¦
+	Dight(0, hdc, rect.left + beta, rect.top + beta + alpha * 1.5, unit.Attacker, 0xeeee00);		//æ”»å‡»åŠ›
+	Dight(0, hdc, rect.left + beta + 8, rect.top + beta + alpha * 1.5, unit.Defender, 0x30ee6a);	//é˜²å¾¡åŠ›
+	Dight(0, hdc, rect.left + beta + 16, rect.top + beta + alpha * 1.5, unit.Mobility, 0xffffff);	//ç§»åŠ¨åŠ›
 }
 
-//Í³Ò»»æÖÆµØÍ¼µ¥Î»
+//ç»Ÿä¸€ç»˜åˆ¶åœ°å›¾å•ä½
 void UnitMapDrawing(HDC hdc)
 {
 	for (int o = 0; o < MAPWIDTH; o++)
@@ -533,7 +536,7 @@ void UnitMapDrawing(HDC hdc)
 		}
 }
 
-//ÖØÖÃµ¥Î»ÒÆ¶¯Á¦
+//é‡ç½®å•ä½ç§»åŠ¨åŠ›
 void UnitReset(UNIT* unit, int mode)
 {
 	//mode 1 Round | 2 fight
@@ -553,7 +556,7 @@ void UnitReset(UNIT* unit, int mode)
 	}
 }
 
-//ÖØÖÃµ¥Î»ÒÆÕ½¶·Á¦
+//é‡ç½®å•ä½ç§»æˆ˜æ–—åŠ›
 void UnitPeople(UNIT* unit)
 {
 	if (unit->people <= 0)return;
@@ -625,7 +628,7 @@ void UnitPeople(UNIT* unit)
 	}
 }
 
-//ÇåÁã
+//æ¸…é›¶
 void UnitZero(UNIT* unit)
 {
 	unit->Attacker = 0;
@@ -638,7 +641,7 @@ void UnitZero(UNIT* unit)
 	unit->battleemblem = 0;
 }
 
-//µ¥Î»Ñ¹Õ»
+//å•ä½å‹æ ˆ
 void UnitStacking(MAP* map)
 {
 	for (int i = 0; i < 5; i++)
@@ -650,7 +653,7 @@ void UnitStacking(MAP* map)
 			}
 }
 
-//Õ½¶·º¯Êı
+//æˆ˜æ–—å‡½æ•°
 int UnitCombat(MAP* map, MAP* targetpoint)
 {
 	if (map->unit[0].people <= 0 || targetpoint->unit[0].people <= 0)return Error;
@@ -692,7 +695,7 @@ int UnitCombat(MAP* map, MAP* targetpoint)
 			if (targetpoint->terrain == 'm')alpha = 0;
 			if (targetpoint->citysid > 0)alpha = RANGE(alpha - 2, 0, 7);
 			if (targetpoint->hexagon == 't')alpha = RANGE(alpha - 1, 0, 7);
-			alpha = RANGE(alpha - 1, 0, 6);//Æ¥Åä²Ã¾ö±í
+			alpha = RANGE(alpha - 1, 0, 6);//åŒ¹é…è£å†³è¡¨
 			outcome = arrcombatjudgmenttable[RANGE(alpha, 0, 6)][battlesrand];
 			for (int i = 0; i < 5; i++)
 				if (unitselect[i])map->unit[i].battleemblem = 1;
@@ -755,7 +758,7 @@ int UnitCombat(MAP* map, MAP* targetpoint)
 	return out;
 }
 
-//µ¥Î»³·ÍË¸¨Öúº¯Êı
+//å•ä½æ’¤é€€è¾…åŠ©å‡½æ•°
 MAP* UnitFallBackTransform(int sid, MAP* targetpoint)
 {
 	//if (targetpoint->unit[0].sid == sid)return targetpoint;
@@ -824,7 +827,7 @@ MAP* UnitFallBackTransform(int sid, MAP* targetpoint)
 	return returnmap;
 }
 
-//µ¥Î»³·ÍË
+//å•ä½æ’¤é€€
 void UnitFallBack(int sid, int combatoutcome, MAP* map, MAP* targetpoint)
 {
 	if (combatoutcome == 0xd1)
@@ -845,7 +848,7 @@ void UnitFallBack(int sid, int combatoutcome, MAP* map, MAP* targetpoint)
 			}
 }
 
-//UnitMove¸¨Öúº¯Êı
+//UnitMoveè¾…åŠ©å‡½æ•°
 void UnitMoveTransform(int Mobility, MAP* map, MAP* targetpoint, int i, int numberA)
 {
 	if (map->unit[i].Mobility - Mobility >= 0)
@@ -856,7 +859,7 @@ void UnitMoveTransform(int Mobility, MAP* map, MAP* targetpoint, int i, int numb
 	}
 }
 
-//µ¥Î»ÒÆ¶¯
+//å•ä½ç§»åŠ¨
 void UnitMove(MAP* map, MAP* targetpoint)
 {
 	if (map->unit[0].people <= 0)return;
@@ -914,13 +917,13 @@ void UnitMove(MAP* map, MAP* targetpoint)
 	}
 }
 
-//»æÖÆÃüÁîÀ¸
+//ç»˜åˆ¶å‘½ä»¤æ 
 void UnitCommandDrawing(MAP map, HDC hdc)
 {
 	if (map.unit[0].people > 0)
 		for (int i = 0; i < 5; i++)
 		{
-			//if (map.unit[i].people <= 0) continue; // Ìø¹ı¿Õµ¥Î»²Û
+			//if (map.unit[i].people <= 0) continue; // è·³è¿‡ç©ºå•ä½æ§½
 			GAME Game; Game.doublebuffer.hdc = hdc;
 			int alpha = HEXAGONR / 3;
 			RECT rect = { 0, i * (PARENTWINDOWWIDTH + 5), PARENTWINDOWWIDTH, PARENTWINDOWWIDTH };
@@ -930,9 +933,9 @@ void UnitCommandDrawing(MAP map, HDC hdc)
 			BoxA(0, hdc, rectA.left, rectA.top, rectA.right, rectA.bottom, 0);
 			if (map.unit[i].supply <= 0)NewLine(0, hdc, rect.left + 3, rect.top + 3, rect.left + 3, rect.top + 3, 7, 0x00eeee);
 			if (map.unit[i].battleemblem)NewLine(0, hdc, rect.left + 3, rect.top + 10, rect.left + 3, rect.top + 10, 7, 0x009900);
-			Dight(0, hdc, rect.left + alpha / 2, rect.top + alpha * 3, map.unit[i].Attacker, 0xeeee00);			//¹¥»÷Á¦
-			Dight(0, hdc, rect.left + alpha / 2 + 10, rect.top + alpha * 3, map.unit[i].Defender, 0x00ee00);	//·ÀÓùÁ¦
-			Dight(0, hdc, rect.left + alpha / 2 + 20, rect.top + alpha * 3, map.unit[i].Mobility, 0xffffff);	//ÒÆ¶¯Á¦
+			Dight(0, hdc, rect.left + alpha / 2, rect.top + alpha * 3, map.unit[i].Attacker, 0xeeee00);			//æ”»å‡»åŠ›
+			Dight(0, hdc, rect.left + alpha / 2 + 10, rect.top + alpha * 3, map.unit[i].Defender, 0x00ee00);	//é˜²å¾¡åŠ›
+			Dight(0, hdc, rect.left + alpha / 2 + 20, rect.top + alpha * 3, map.unit[i].Mobility, 0xffffff);	//ç§»åŠ¨åŠ›
 			Dight(0, hdc, rect.left + alpha, rect.top + alpha * 3 - alpha * 1.2, map.unit[i].people, 0xffffff);	//people
 			Dight(0, hdc, rect.left + alpha * 2, rect.top + alpha * 3 - alpha * 1.2, map.unit[i].supply, 0xff00ff);	//supply
 			if (unitselect[i])
@@ -945,14 +948,14 @@ void UnitCommandDrawing(MAP map, HDC hdc)
 	Line(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5), PARENTWINDOWWIDTH, 5 * (PARENTWINDOWWIDTH + 5), 0);
 }
 
-//ÃüÁîÀ¸µ¥Î»Ñ¡Ôñ
+//å‘½ä»¤æ å•ä½é€‰æ‹©
 void UnitChoose(int mode)
 {
 	int number = MOUSEY / (PARENTWINDOWWIDTH + 5);
 	if (number >= 0 && number < 5) unitselect[number] = (mode ? TRUE : FALSE);
 }
 
-//³õÊ¼»¯µ¥Î»
+//åˆå§‹åŒ–å•ä½
 int InitialisationUnit(UNIT* unit, int unittype, int sid)
 {
 	int out = FALSE;
@@ -993,7 +996,7 @@ int InitialisationUnit(UNIT* unit, int unittype, int sid)
 	return out;
 }
 
-//²¹¸øÅĞ¶¨¸¨Öúº¯Êı
+//è¡¥ç»™åˆ¤å®šè¾…åŠ©å‡½æ•°
 void UnitSupplyTransform(int i, int sid, int hqsupply)
 {
 	for (int o = 0; o < 5; o++)
@@ -1012,7 +1015,7 @@ void UnitSupplyTransform(int i, int sid, int hqsupply)
 	}
 }
 
-//²¹¸øÅĞ¶¨º¯Êı
+//è¡¥ç»™åˆ¤å®šå‡½æ•°
 void UnitSupply(int sid)
 {
 	for (int i = 0; i < MAPWIDTH * MAPHEIGHT; i++)
@@ -1030,7 +1033,7 @@ void UnitSupply(int sid)
 	}
 }
 
-//ÔöÔ®
+//å¢æ´
 void UnitReinforce(MAP* Map, int sid, int* manpower, int* industry, int* rommanpower, int* romindustry)
 {
 	if (Map->terrain == 'o')return;
@@ -1093,7 +1096,7 @@ void UnitReinforceA(HDC hdc)
 
 //----------------------------------------------------------------------------------------------------------------Game----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-//ÌúÂ·²¹¸ø´«Êä
+//é“è·¯è¡¥ç»™ä¼ è¾“
 void GameSupply(MAP* startmap, int sid, int depth)
 {
 	depth--;
@@ -1182,14 +1185,14 @@ void ReadGame()
 	fclose(fp);
 }
 
-//ÓÎÏ·»ØºÏ½×¶Î
+//æ¸¸æˆå›åˆé˜¶æ®µ
 void GamePhase(int number)
 {
 	//The Soviet Union advocated attack, so it attacked first and then moved
 	NEWPOINT beta = HexagonTransitionPoint(MOUSEX - mapx, MOUSEY - mapy, HEXAGONR);
 	switch (number % 8)
 	{
-		//µ¥Î»×¼±¸
+		//å•ä½å‡†å¤‡
 	case 0: UnitReinforce(&map[hexagonpointA.x * MAPHEIGHT + hexagonpointA.y], 2, &axismanpower, &axisindustry, &rommanpower, &romindustry); break;
 	case 1: 
 		UnitReinforce(&map[hexagonpointA.x * MAPHEIGHT + hexagonpointA.y], 1, &ussrmanpower, &ussrindustry, &rommanpower, &romindustry); 
@@ -1227,21 +1230,21 @@ void GamePhaseA(HDC hdc)
 	BoxC(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 55, PARENTWINDOWWIDTH, 40, 0xeaeaea);
 	switch (phase % 8)
 	{
-	case 0:		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"µÂ¹ú", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"ÔöÔ®", 0xba7bd7);		break;
+	case 0:		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"å¾·å›½", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"å¢æ´", 0xba7bd7);		break;
 	case 1:
-	if(phase==1) { Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"µÂ¹ú", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"Ï®»÷", 0xba7bd7); }
-	else { Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"ËÕÁª", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"ÔöÔ®", 0xba7bd7); }
+	if(phase==1) { Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"å¾·å›½", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"è¢­å‡»", 0xba7bd7); }
+	else { Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"è‹è”", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"å¢æ´", 0xba7bd7); }
 		break;
-	case 2:		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"ÖáĞÄ¹ú", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"ÒÆ¶¯", 0xba7bd7);		break;
-	case 3:		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"ÖáĞÄ¹ú", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"½ø¹¥", 0xba7bd7);		break;
-	case 4:		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"ËÕÁª", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"½ø¹¥", 0xba7bd7);		break;
-	case 5:		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"ËÕÁª", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"ÒÆ¶¯", 0xba7bd7);		break;
-	case 6:		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"ÅĞ¶Ï", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"²¹¸ø", 0xba7bd7);		break;
-	case 7:		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"ÖáĞÄ¹ú", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"×°¼×ÂÖ", 0xba7bd7);		break;
+	case 2:		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"è½´å¿ƒå›½", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"ç§»åŠ¨", 0xba7bd7);		break;
+	case 3:		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"è½´å¿ƒå›½", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"è¿›æ”»", 0xba7bd7);		break;
+	case 4:		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"è‹è”", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"è¿›æ”»", 0xba7bd7);		break;
+	case 5:		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"è‹è”", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"ç§»åŠ¨", 0xba7bd7);		break;
+	case 6:		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"åˆ¤æ–­", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"è¡¥ç»™", 0xba7bd7);		break;
+	case 7:		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 60, L"è½´å¿ƒå›½", 0);		Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 80, L"è£…ç”²è½®", 0xba7bd7);		break;
 	}
 	Dight(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 100, phase % 8 + 1, 0);
 	BoxC(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 10, PARENTWINDOWWIDTH, 40, 0xaaaaaa);
-	Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 10, L"²Ã¾ö±í:", 0);
+	Text(0, hdc, 0, 5 * (PARENTWINDOWWIDTH + 5) + 10, L"è£å†³è¡¨:", 0);
 	if (arrcombatjudgmenttableout != Error)
 		switch (arrcombatjudgmenttableout)
 		{
@@ -1256,8 +1259,8 @@ void GamePhaseA(HDC hdc)
 		}
 	else Text(0, hdc, 0 + 25, 5 * (PARENTWINDOWWIDTH + 5) + 25, L"NO", 0x0000ff);
 	BoxC(0, hdc, 0, 7 * (PARENTWINDOWWIDTH + 5), PARENTWINDOWWIDTH, 40, 0xcccccc);
-	Text(0, hdc, 0, 7 * (PARENTWINDOWWIDTH + 5), L"Äê:", 0);
-	Text(0, hdc, 0, 7 * (PARENTWINDOWWIDTH + 5) + 20, L"ÔÂ:", 0);
+	Text(0, hdc, 0, 7 * (PARENTWINDOWWIDTH + 5), L"å¹´:", 0);
+	Text(0, hdc, 0, 7 * (PARENTWINDOWWIDTH + 5) + 20, L"æœˆ:", 0);
 	switch (gamemon)
 	{
 	case 1: Text(0, hdc, 18, 7 * (PARENTWINDOWWIDTH + 5) + 20, L"1~3", 0x775ba4); break;
@@ -1274,10 +1277,10 @@ void GamePhaseA(HDC hdc)
 	Line(0, hdc, 0, 7 * (PARENTWINDOWWIDTH + 10) + 20 * 11, PARENTWINDOWWIDTH, (7 * (PARENTWINDOWWIDTH + 10)) + 20 * 11, 0);
 	switch (map[hexagonpointA.x * MAPHEIGHT + hexagonpointA.y].terrain)
 	{
-	case 'l':Text(0, hdc, 0, 7 * (PARENTWINDOWWIDTH + 10), L"Æ½Ô­", 0); break;
-	case 'm':Text(0, hdc, 0, 7 * (PARENTWINDOWWIDTH + 10), L"É½µØ", 0x3b568f); break;
-	case 'o':Text(0, hdc, 0, 7 * (PARENTWINDOWWIDTH + 10), L"º£Ñó", 0xc05c4a); break;
-	case 't':Text(0, hdc, 0, 7 * (PARENTWINDOWWIDTH + 10), L"É­ÁÖ", 0x00823f); break;
+	case 'l':Text(0, hdc, 0, 7 * (PARENTWINDOWWIDTH + 10), L"å¹³åŸ", 0); break;
+	case 'm':Text(0, hdc, 0, 7 * (PARENTWINDOWWIDTH + 10), L"å±±åœ°", 0x3b568f); break;
+	case 'o':Text(0, hdc, 0, 7 * (PARENTWINDOWWIDTH + 10), L"æµ·æ´‹", 0xc05c4a); break;
+	case 't':Text(0, hdc, 0, 7 * (PARENTWINDOWWIDTH + 10), L"æ£®æ—", 0x00823f); break;
 	}
 }
 
@@ -1342,7 +1345,7 @@ void RunScript()
 			caselogic(!strcmp(arrcommandtext, stardoorscript[0])) break;
 		caselogic(!strcmp(arrcommandtext, stardoorscript[1]))
 		{
-			ScriptCoord(fp, &number[0], &number[1], arrcommandtext);	//×ø±ê
+			ScriptCoord(fp, &number[0], &number[1], arrcommandtext);	//åæ ‡
 			fscanf(fp, "%29s", arrcommandtext);
 			number[2] = atoi(arrcommandtext);
 			fscanf(fp, "%c", &text);
@@ -1351,21 +1354,21 @@ void RunScript()
 		}
 		caselogic(!strcmp(arrcommandtext, stardoorscript[2]))
 		{
-			ScriptCoord(fp, &number[0], &number[1], arrcommandtext);	//×ø±ê
+			ScriptCoord(fp, &number[0], &number[1], arrcommandtext);	//åæ ‡
 			fscanf(fp, "%c", &text);
 			fscanf(fp, "%c", &text);
 			map[max((number[0] * MAPHEIGHT + number[1]) % (MAPWIDTH * MAPHEIGHT), 0)].terrain = text;
 		}
 		caselogic(!strcmp(arrcommandtext, stardoorscript[3]))
 		{
-			ScriptCoord(fp, &number[0], &number[1], arrcommandtext);	//×ø±ê
+			ScriptCoord(fp, &number[0], &number[1], arrcommandtext);	//åæ ‡
 			fscanf(fp, "%29s", arrcommandtext);
 			number[2] = atoi(arrcommandtext);
 			map[max((number[0] * MAPHEIGHT + number[1]) % (MAPWIDTH * MAPHEIGHT), 0)].traintracks[number[2]] = TRUE;
 		}
 		caselogic(!strcmp(arrcommandtext, stardoorscript[4]))
 		{
-			ScriptCoord(fp, &number[0], &number[1], arrcommandtext);	//×ø±ê
+			ScriptCoord(fp, &number[0], &number[1], arrcommandtext);	//åæ ‡
 			fscanf(fp, "%29s", arrcommandtext);
 			number[2] = atoi(arrcommandtext);
 			fscanf(fp, "%29s", arrcommandtext);
@@ -1374,7 +1377,7 @@ void RunScript()
 		}
 		caselogic(!strcmp(arrcommandtext, stardoorscript[5]))
 		{
-			ScriptCoord(fp, &number[0], &number[1], arrcommandtext);	//×ø±ê
+			ScriptCoord(fp, &number[0], &number[1], arrcommandtext);	//åæ ‡
 			fscanf(fp, "%29s", arrcommandtext);
 			number[2] = atoi(arrcommandtext);
 			fscanf(fp, "%29s", arrcommandtext);
@@ -1385,7 +1388,7 @@ void RunScript()
 		}
 		caselogic(!strcmp(arrcommandtext, stardoorscript[6]))
 		{
-			ScriptCoord(fp, &number[0], &number[1], arrcommandtext);	//Ê±¼ä
+			ScriptCoord(fp, &number[0], &number[1], arrcommandtext);	//æ—¶é—´
 			gameyear = number[0];
 			gamemon = number[1] % 12 + 1;
 		}
@@ -1411,7 +1414,7 @@ void RunScript()
 	fclose(fp);
 }
 
-//ÓÎÏ·¿ªÊ¼ÉèÖÃ
+//æ¸¸æˆå¼€å§‹è®¾ç½®
 void GameStartSetting()
 {
 	BoxC(0, unitimg.hdc, 0, 0, MAPIMGWIDTH, MAPIMGHEIGHT, RGB(1, 1, 1));
@@ -1422,7 +1425,7 @@ void GameStartSetting()
 	fread(&gamemode, sizeof(int), 1, fp);
 	fread(&gameok, sizeof(int), 1, fp);
 	fclose(fp);
-	if (gameok == FALSE) { MessageBox(0, L"Äú±ØĞë´ÓºÏ·¨µÄÆô¶¯Æ÷Æô¶¯", L"Waring", MB_OK | MB_ICONERROR); exit(0); }
+	if (gameok == FALSE) { MessageBox(0, L"æ‚¨å¿…é¡»ä»åˆæ³•çš„å¯åŠ¨å™¨å¯åŠ¨", L"Waring", MB_OK | MB_ICONERROR); exit(0); }
 	if (gamemode == 1) RunScript();
 	else if (gamemode == 2) { strcpy(arrgamereadname, arrgameoutname); ReadGame(); }
 	HexagonConversion();
@@ -1446,10 +1449,10 @@ void main()
 	GAME Game;
 	InitialisationGame(&Game, L"1941 The Eastern Front Parent", -1, -1, WINDOWWIDTH + 17 + PARENTWINDOWWIDTH, WINDOWHEIGHT + 39, 100, 0, 0, 1);
 
-	//È¡ÏûÈ«ÆÁ°´Å¥
-	LONG style = GetWindowLong(Game.Windowhwnd, GWL_STYLE);// È¥³ıÈ«ÆÁ°´Å¥
-	style &= ~WS_MAXIMIZEBOX;// Ó¦ÓÃĞŞ¸ÄºóµÄÑùÊ½
-	SetWindowLong(Game.Windowhwnd, GWL_STYLE, style);// Ë¢ĞÂ´°¿ÚÒÔÓ¦ÓÃĞÂµÄÑùÊ½
+	//å–æ¶ˆå…¨å±æŒ‰é’®
+	LONG style = GetWindowLong(Game.Windowhwnd, GWL_STYLE);// å»é™¤å…¨å±æŒ‰é’®
+	style &= ~WS_MAXIMIZEBOX;// åº”ç”¨ä¿®æ”¹åçš„æ ·å¼
+	SetWindowLong(Game.Windowhwnd, GWL_STYLE, style);// åˆ·æ–°çª—å£ä»¥åº”ç”¨æ–°çš„æ ·å¼
 	SetWindowPos(Game.Windowhwnd, NULL, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_NOZORDER | SWP_FRAMECHANGED);
 
 	mapimg.hdc = DoubleBuffer(Game.Windowhwnd, mapimg.hBitmap, MAPIMGWIDTH, MAPIMGHEIGHT);
@@ -1460,8 +1463,8 @@ void main()
 	DeletBuffer(mapimg.hBitmap, mapimg.hdc);
 	DeletBuffer(unitimg.hBitmap, unitimg.hdc);
 	GameOut();
-	if(ussrvictory)MessageBox(Game.Windowhwnd, L"¾­ÀúÁË³¤´ïÊıÄê²ĞÈÌµÄ,ÄÑÒÔÏëÏóµÄ,¿õÈÕ³Ö¾ÃµÄµÄÕ½Õù\nºì¾üÒÔ¾Ş´óµÄÎşÉüÄæ×ªÕ½¾Ö£¬Ò»Â··´¹¥ÖÁ°ØÁÖ\n[ËÕÎ¬°£Éç»áÖ÷Òå¹²ºÍ¹úÁªÃË]³¹µ×»÷°ÜÁË[ÖáĞÄ¹ú¼ÒÁªºÏ]", L"USSR WIN", MB_OK);
-	if(axisvictory)MessageBox(Game.Windowhwnd, L"×Ô°Í°ÍÂŞÈø¿ªÊ¼µÄÍµÏ®,ÔÚÉËÍö¼¸Ê®ÉÏ°ÙÍòÈËÖ®ºó,È¡µÃÁË¶íÂŞË¹Õ½ÒÛµÄÊ¤Àû\n[µÂÒâÖ¾µÚÈıµÛ¹ú]³¹µ×»÷°ÜÁË[ËÕÎ¬°£Éç»áÖ÷Òå¹²ºÍ¹úÁªÃË]", L"AXIS WIN", MB_OK);
+	if(ussrvictory)MessageBox(Game.Windowhwnd, L"ç»å†äº†é•¿è¾¾æ•°å¹´æ®‹å¿çš„,éš¾ä»¥æƒ³è±¡çš„,æ—·æ—¥æŒä¹…çš„çš„æˆ˜äº‰\nçº¢å†›ä»¥å·¨å¤§çš„ç‰ºç‰²é€†è½¬æˆ˜å±€ï¼Œä¸€è·¯åæ”»è‡³æŸæ—\n[è‹ç»´åŸƒç¤¾ä¼šä¸»ä¹‰å…±å’Œå›½è”ç›Ÿ]å½»åº•å‡»è´¥äº†[è½´å¿ƒå›½å®¶è”åˆ]", L"USSR WIN", MB_OK);
+	if(axisvictory)MessageBox(Game.Windowhwnd, L"è‡ªå·´å·´ç½—è¨å¼€å§‹çš„å·è¢­,åœ¨ä¼¤äº¡å‡ åä¸Šç™¾ä¸‡äººä¹‹å,å–å¾—äº†ä¿„ç½—æ–¯æˆ˜å½¹çš„èƒœåˆ©\n[å¾·æ„å¿—ç¬¬ä¸‰å¸å›½]å½»åº•å‡»è´¥äº†[è‹ç»´åŸƒç¤¾ä¼šä¸»ä¹‰å…±å’Œå›½è”ç›Ÿ]", L"AXIS WIN", MB_OK);
 	int gamemode = FALSE, gameok = FALSE;
 	FILE* fp = fopen("Game/setting.star", "wb");
 	fwrite(&GAMEPOWER, sizeof(int), 1, fp);
@@ -1621,4 +1624,5 @@ void GameDrawing(GAME* Game)
 	GamePhaseA(unitimg.hdc);
 	NewDIGHT(Game, hexagonpointA.x, 0, 20, 0);
 	NewDIGHT(Game, hexagonpointA.y, 0, 40, 0);
+
 }
