@@ -1,1 +1,1 @@
-This is a simple wargame designed to show you the Eastern Front battlefield starting from 1941. It includes a simple script editor to freely define terrain and units!
+From 1941 until the victory of World War II! This is a simple grand strategy war game designed to showcase the vast Eastern Front battlefield starting from 1941.
