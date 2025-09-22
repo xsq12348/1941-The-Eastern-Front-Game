@@ -1,5 +1,7 @@
 //All notes are in English and Chinese, and the rest of the languages are garbled
 /*
+如果您是从GitHub仓库里得到它的，那么以下限制作废，遵循仓库中的许可证条款。
+If you obtained it from a GitHub repository, then the following limitations are void, and you should follow the license terms in the repository.
 * 改编自作者桌游，略有不同
 * Adapted from the author's board game, slightly different
 作者:xsq1234
@@ -28,9 +30,6 @@ Mailbox:
 As long as the source code is distributed, the serial number must not be the same
 Serial number 00000-00000-00001
 Version information: beta version
-
-如果您是从GitHub仓库里得到它的，那么以上限制作废，遵循仓库中的许可证条款。
-If you obtained it from the GitHub repository, then the above limitations are void, and you should follow the license terms in the repository.
 
 * Mapping V
 * Hexagon correlation V
@@ -1626,3 +1625,4 @@ void GameDrawing(GAME* Game)
 	NewDIGHT(Game, hexagonpointA.y, 0, 40, 0);
 
 }
+
