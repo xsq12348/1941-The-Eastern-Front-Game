@@ -32,17 +32,18 @@ void GameDrawing(GAME* Game)
 	if (startgame == 2)
 	{
 		IMGA(Game, L"img/NewGame.bmp", 21, 73, 1, 1, 0xffffff);
-		Text(0, Game->doublebuffer.hdc, MOUSEX - 60, MOUSEY - 10, L"©╙й╪сно╥", 0x00ee00);
+		Text(0, Game->doublebuffer.hdc, MOUSEX - 60, MOUSEY - 10, L"Е╪─Е╖▀Ф╦╦Ф┬▐", 0x00ee00);
 	}
 	if (historygame == 2)
 	{
 		IMGA(Game, L"img/HistoryGame.bmp", 21, 123, 1, 1, 0xffffff);
-		Text(0, Game->doublebuffer.hdc, MOUSEX - 60, MOUSEY - 10, L"юЗй╥сно╥", 0x00ee00);
+		Text(0, Game->doublebuffer.hdc, MOUSEX - 60, MOUSEY - 10, L"Е▌├Е▐╡Ф╦╦Ф┬▐", 0x00ee00);
 	}
-	if (power == 2)Text(0, Game->doublebuffer.hdc, MOUSEX - 80, MOUSEY - 10, L"╦ъптдэсно╥", 0x00ee00);
+	if (power == 2)Text(0, Game->doublebuffer.hdc, MOUSEX - 80, MOUSEY - 10, L"И╚≤Ф─╖Х┐╫Ф╦╦Ф┬▐", 0x00ee00);
 	if (GAMEPOWER)
 	{
 		LINE(Game, 196, 182, 196 + 20, 182 + 20, 0x0000ff);
 		LINE(Game, 196 + 20, 182, 196, 182 + 20, 0x0000ff);
 	}
+
 }
