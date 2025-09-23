@@ -10,12 +10,6 @@ If you obtained it from a GitHub repository, then the following limitations are 
 名称:1941 东线(1941 The Eastern Front)
 未经授权禁止转载!xsq1234保留部分权利。
 您可以修改源代码，拓展等等，但必须保留游戏原作者署名。倘若修改，您的商业化权利将被剥夺.
-如若需要二次分发，请在咨询xsq1234后在下方写下您的邮箱
-邮箱:
-如若需要作为商品或放在软件分发平台发放，必须咨询xsq1234后在下方写下您的邮箱，并且告知可能的盈利
-邮箱:
-源代码只要分发出去，序列号就不得相同
-序列号 00000-00000-00001
 版本信息:测试版
 Author: xsq1234
 Email: 1993346266@qq.com (commonly used), c6668883535357a@163.com (not commonly used)
@@ -23,12 +17,6 @@ Project creation date: 2025.7.16~2025.7.29,2025.8.2~8.3
 Name: 1941 The Eastern Front
 Unauthorized reproduction is prohibited! XSQ1234 All rights reserved.
 You can modify the source code, extensions, etc., but you must keep the original author's attribution. If modified, your commercialization rights will be forfeited.
-If you need to distribute it again, please write your email address below after consulting xsq1234
-Mailbox:
-If you need to distribute it as a commodity or on a software distribution platform, you must consult xsq1234 and write down your email address below, and inform you of the possible profit
-Mailbox:
-As long as the source code is distributed, the serial number must not be the same
-Serial number 00000-00000-00001
 Version information: beta version
 
 * Mapping V
@@ -125,6 +113,7 @@ const int arrcombatjudgmenttable[7][6] =
 	{0xd2,0xd2,0x1d2,0x1d2,0x2d2,0x3d2},
 };
 
+//废弃的
 #if STARTOpenCL
 cl_program programA;
 cl_kernel kernelfindunit;
@@ -1625,4 +1614,5 @@ void GameDrawing(GAME* Game)
 	NewDIGHT(Game, hexagonpointA.y, 0, 40, 0);
 
 }
+
 
