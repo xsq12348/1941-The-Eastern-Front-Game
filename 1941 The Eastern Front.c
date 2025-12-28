@@ -7,18 +7,6 @@ If you obtained it from a GitHub repository, then the following limitations are 
 作者:xsq1234
 邮箱:1993346266@qq.com(常用),c6668883535357a@163.com(不常用)
 工程创建日期:2025.7.16~2025.7.29,2025.8.2~8.3
-名称:1941 东线(1941 The Eastern Front)
-未经授权禁止转载!xsq1234保留部分权利。
-您可以修改源代码，拓展等等，但必须保留游戏原作者署名。倘若修改，您的商业化权利将被剥夺.
-版本信息:测试版
-Author: xsq1234
-Email: 1993346266@qq.com (commonly used), c6668883535357a@163.com (not commonly used)
-Project creation date: 2025.7.16~2025.7.29,2025.8.2~8.3
-Name: 1941 The Eastern Front
-Unauthorized reproduction is prohibited! XSQ1234 All rights reserved.
-You can modify the source code, extensions, etc., but you must keep the original author's attribution. If modified, your commercialization rights will be forfeited.
-Version information: beta version
-
 * Mapping V
 * Hexagon correlation V
 * Map editor V
@@ -1614,5 +1602,6 @@ void GameDrawing(GAME* Game)
 	NewDIGHT(Game, hexagonpointA.y, 0, 40, 0);
 
 }
+
 
 
